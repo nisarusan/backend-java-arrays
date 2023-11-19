@@ -17,19 +17,17 @@ public class Main {
 //                    System.out.println(arrayOfIntegers[i]);
 //                }
 //            }
-        // implementeer een for loop die alle namen in de array "names" print. Houd er rekening mee dat de array een andere length kan hebben dan 3.
-        //for(;;) {
-//        for (int i = 0; i < names.length; i++) {
-//            System.out.println(names[i]);
-//        }
-        //}
+//         implementeer een for loop die alle namen in de array "names" print. Houd er rekening mee dat de array een andere length kan hebben dan 3.
+        for (int i = 0; i < names.length; i++) {
+            System.out.println(names[i]);
+        }
 
         // implementeer een for loop die de twee arrays combineerd. De output moet zijn:
         // oneSjaak
         // twoSjimmy
         // threeSjonny
-            for(int j = 0; j < names.length; j++) {
-                System.out.println(countdown[j] + names[j]);
+            for(int i = 0; i < names.length; i++) {
+                System.out.println(countdown[i] + names[i]);
             }
 }
 }
